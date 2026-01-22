@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-menu
+{
+
+    background-color: rgb(39, 2, 73);
+    width: 1920px;
+    height: 90px;
+    padding: 30px;
+}
+
+.container-menu img{
+    display: flexbox;
+    width: 60px;
+    height: 60px;
+}
+
+.container-menu a{
+
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    border-style: none;
+    margin-left: 40px;
+    
+}
+
+.apresentacao {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+#boasvindas {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobrenos{
+    text-align: center;
+}
+
+.portfolio{
+    text-align: center;
+}
+
+.portfolio #imagem1, #imagem2, #imagem3, #imagem4{
+    display: flex;
+}
+
+#container-info{
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(39, 2, 73);
+    width: 1920px;
+    height: 70px;
+    padding: 30px;
+}
+
+.loja{
+    text-align: center;
+}
+
+#orcamento{
+    text-align: center;
+}
+
+.contato{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(39, 2, 73);
+    width: 1920px;
+    height: 200px;
+}
